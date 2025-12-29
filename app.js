@@ -5,6 +5,11 @@
 
 // ********** set date ************
 
+const date = document.getElementById("date");
+
+const year = new Date().getFullYear();
+
+date.textContent = year;
 // ********** close links ************
 
 // ********** fixed navbar ************
